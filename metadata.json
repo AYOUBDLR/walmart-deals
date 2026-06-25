@@ -1,0 +1,6 @@
+{
+  "name": "Walmart Gift Card Landing Page",
+  "description": "A clean, mobile-first dark-themed landing page to claim a $750 Walmart gift card with standard instructional steps and a high-contrast CTA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
