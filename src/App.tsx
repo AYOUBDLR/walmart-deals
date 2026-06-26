@@ -55,16 +55,21 @@ export default function App() {
       <header className="w-full max-w-[430px] flex justify-center items-center py-4 mb-3">
         <a 
           href={redirectUrl}
-          className="flex items-center gap-1.5 focus:outline-none"
+          className="flex flex-col items-center gap-1 focus:outline-none"
         >
-          {/* Walmart Blue Text Wordmark */}
-          <span className="text-[#0071dc] font-display text-[32px] font-extrabold tracking-tight">
-            walmart
-          </span>
-          {/* Walmart Spark Logo */}
-          <svg className="w-8 h-8 text-[#ffc220] fill-current animate-pulse" viewBox="0 0 24 24">
-            <path d="M12 2v6.5m0 7V22m-8.5-6.5l5.63-3.25m5.74-3.3l5.63-3.25m-11.37-.05l5.63 3.25M14.87 15.3l5.63 3.25" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"/>
+          {/* Walmart Spark Logo on Top */}
+          <svg className="w-11 h-11 text-[#ffb81c]" viewBox="0 0 100 100" fill="currentColor">
+            <rect x="45.5" y="10" width="9" height="24" rx="4.5" />
+            <rect x="45.5" y="66" width="9" height="24" rx="4.5" />
+            <rect x="45.5" y="10" width="9" height="24" rx="4.5" transform="rotate(60 50 50)" />
+            <rect x="45.5" y="10" width="9" height="24" rx="4.5" transform="rotate(120 50 50)" />
+            <rect x="45.5" y="10" width="9" height="24" rx="4.5" transform="rotate(240 50 50)" />
+            <rect x="45.5" y="10" width="9" height="24" rx="4.5" transform="rotate(300 50 50)" />
           </svg>
+          {/* Walmart Blue Text Wordmark Centered on Bottom */}
+          <span className="text-[#0071dc] font-display text-[30px] font-extrabold tracking-tight leading-none">
+            Walmart
+          </span>
         </a>
       </header>
 
